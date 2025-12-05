@@ -1,0 +1,18 @@
+img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .categoria-videos img {
+    width: 300px; 
+    height: 180px; 
+   object-fit: cover; 
+    opacity: 0.7;       
+  border-radius: 10px; 
+}
