@@ -46,8 +46,14 @@ p {
 }
 
 .categoria-videos img {
-    opacity: 0.5;
-    height: 200px;
+    opacity: 0.7;
+    height: 180px;
+    width:300px;
+    object-fit: cover;
+    border-radius:10px
+    
+    
+    
 }
 
 .categoria-videos img:hover {
